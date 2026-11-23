@@ -4,17 +4,40 @@ h1{
     font-size: 20px;
     text-align: justify;
 }
-
-#one{
-    color:lab(70.65% 1.24 71.68);
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 20px;
-    text-align: justify;    
-    padding: 10%;
-    border: 2px solid hwb(10 45% 38%);
+.one{
+    color :hsl(10, 13%, 82%);
+    border: 2px solid hsl(15, 100%, 99%);
+    padding: 10px;
+    background-color: hsl(143, 82%, 49%);
     width: 20%;
-
 }
+.two{
+    color :hsl(10, 94%, 51%);
+    border: 2px solid hsl(10, 94%, 51%);
+    padding: 10px;
+    width: 20%
+}
+.three{
+    color :hsl(10, 94%, 51%);
+    border: 2px solid hwb(151 42% 40%);
+    padding: 10px;
+    background-color: hwb(151 13% 18%);
+    width: 20%
+}
+#home{
+    display: flex;
+    justify-content: space-evenly;   
+}
+@media only screen and (max-width: 768px) {
+    #home{
+        display: flex;
+        flex-direction: column;
+      
+       
+         
+    }
+}
+   
 body{
     background-color: hsl(158, 56%, 89%);
 }
